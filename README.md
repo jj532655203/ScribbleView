@@ -1,7 +1,7 @@
 # ScribbleSdk-Pen
 
 
-##  本项目中TransparentScribbleView为即时显示触控笔迹的透明层,使用surfaceview的双缓冲机制,手写(或笔写)非常流畅,长笔迹+大笔迹量情况下依然无延迟
+##  本项目中TransparentScribbleView为即时显示触控笔迹的透明层,使用surfaceview的双缓冲机制,手写(或笔写)非常流畅,长笔迹+大笔迹量情况下依然很流畅
 
 ##  使用TransparentScribbleView,代码耦合性非常低
 
@@ -16,7 +16,7 @@
 buildscript.repositories{maven { url "https://jitpack.io" }}
 
 需要使用可书写透明层的module的gradle下:
-implementation 'com.github.jj532655203:ScribbleSdkPen:1.0.10'
+implementation 'com.github.jj532655203:ScribbleSdkPen:1.0.2'
 
 ###  2.布局
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
