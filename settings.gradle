@@ -1,2 +1,2 @@
-include ':app', ':scribble_sdk_pen'
+include ':app'
 rootProject.name='Scribble-Sdk-Pen'
