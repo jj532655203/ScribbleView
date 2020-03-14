@@ -12,11 +12,11 @@
 
 ###  1.引入包
 
-项目根目录gradle文件下: 
+项目根目录gradle文件下添加: 
 buildscript.repositories{maven { url "https://jitpack.io" }}
 
-需要使用可书写透明层的module的gradle下:
-implementation 'com.github.jj532655203:ScribbleSdk:1.0.0'		卖个广告：该仓库为私有库，本项目收集10个star后便将该仓库公开  :）  
+需要使用可书写透明层的module的gradle下添加:
+implementation 'com.github.jj532655203:ScribbleSdk:1.0.0'		葫芦里卖点药:),该sdk仓库为私有库,可正常依赖引入。本项目收集10个star后便将该仓库公开  :）  
 
 ###  2.布局
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
