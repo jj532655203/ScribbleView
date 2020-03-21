@@ -16,7 +16,7 @@
 buildscript.repositories{maven { url "https://jitpack.io" }}
 
 需要使用可书写透明层的module的gradle下添加:
-implementation 'com.github.jj532655203:ScribbleSdk:1.1.0'
+implementation 'com.github.jj532655203:ScribbleSdk:1.1.1'
 
 ###  2.布局
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
