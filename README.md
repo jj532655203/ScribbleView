@@ -1,5 +1,12 @@
 # ScribbleView
 
+apk下载地址:
+
+https://phone-love-piano-public-ro.oss-cn-shenzhen.aliyuncs.com/demo-apk/scribble_view_debug_0403.apk
+
+或手机扫码下载:
+
+![Image download apk qrcode ](https://phone-love-piano-public-ro.oss-cn-shenzhen.aliyuncs.com/demo-apk/scribble_view_debug_0403_qrcode.png  )
 
 ##  本项目中TransparentScribbleView为即时显示触控笔迹的透明层,使用surfaceview的双缓冲机制,每次只绘制笔迹(在工作线程绘制,经过测试最大耗时6毫秒,大于16毫秒用户才能感知),手写(或笔写)非常流畅,长笔迹+大笔迹量情况下依然很流畅
 
